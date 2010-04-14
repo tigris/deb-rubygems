@@ -1,0 +1,21 @@
+--- deb/build/usr/lib/ruby/1.9.1/rubygems/commands/update_command.rb  2009-10-10 11:51:41.000000000 +1100
++++ deb/build/usr/lib/ruby/1.9.1/rubygems/commands/update_command.rb  2009-06-23 08:54:36.000000000 +1000
+@@ -48,18 +48,7 @@
+      hig = {}
+
+     if options[:system] then
+-      say "Updating RubyGems"
+-
+-      unless options[:args].empty? then
+-        raise "No gem names are allowed with the --system option"
+-      end
+-
+-      rubygems_update = Gem::Specification.new
+-      rubygems_update.name = 'rubygems-update'
+-      rubygems_update.version = Gem::Version.new Gem::RubyGemsVersion
+-      hig['rubygems-update'] = rubygems_update
+-
+-      options[:user_install] = false
++      raise "gem update --system is disabled on Debian. RubyGems can be updated using the official Debian repositories by aptitude or apt-get."
+     else
+       say "Updating installed gems"

@@ -1,0 +1,10 @@
+The debian specific control files and doc filler was all ninjad from the
+existing rubygems-1.3.5 deb package.
+
+To build this bad boy, you you need to do is copy this folder into your
+rubygems-1.3.* extracted tarball folder and name it 'deb', then
+
+  make -f deb/Makefile clean
+  make -f deb/Makefile all
+
+Your deb file will be at deb/rubygems1.9.1-1.3.*.deb
