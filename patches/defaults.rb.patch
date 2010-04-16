@@ -1,5 +1,5 @@
---- usr/lib/ruby/1.9.1/rubygems/defaults.rb  2009-10-10 11:51:41.000000000 +1100
-+++ usr/lib/ruby/1.9.1/rubygems/defaults.rb  2009-06-23 08:54:36.000000000 +1000
+--- rubygems/defaults.rb  2009-10-10 11:51:41.000000000 +1100
++++ rubygems/defaults.rb  2009-06-23 08:54:36.000000000 +1000
 @@ -15,19 +15,15 @@
    ##
    # Default home directory path to be used if an alternate value is not

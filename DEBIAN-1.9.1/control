@@ -1,0 +1,22 @@
+Package: rubygems1.9.1
+Source: libgems-ruby
+Version: 1.3.6-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 824
+Depends: ruby1.9.1, rdoc1.9.1
+Suggests: ruby1.9.1-dev, build-essential, rubygems-doc
+Section: ruby
+Priority: optional
+Homepage: http://rubygems.org/
+Description: package management framework for Ruby libraries/applications
+ This is a way to package Ruby libraries/applications for distribution.
+ RubyGems provides the ability to manage concurrent versions of libraries and
+ dependencies between those libraries. Using RubyGems, you can:
+   * download and install Ruby libraries easily
+   * not worry about libraries A and B depending on different versions of
+     library C
+   * easily remove libraries you no longer use
+ .
+ This package provides RubyGems with Ruby 1.9.1.
+Original-Maintainer: Daigo Moriwaki <daigo@debian.org>

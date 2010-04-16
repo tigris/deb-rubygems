@@ -1,5 +1,5 @@
---- usr/lib/ruby/1.9.1/rubygems/commands/update_command.rb  2009-10-10 11:51:41.000000000 +1100
-+++ usr/lib/ruby/1.9.1/rubygems/commands/update_command.rb  2009-06-23 08:54:36.000000000 +1000
+--- rubygems/commands/update_command.rb  2009-10-10 11:51:41.000000000 +1100
++++ rubygems/commands/update_command.rb  2009-06-23 08:54:36.000000000 +1000
 @@ -48,18 +48,7 @@
       hig = {}
 
